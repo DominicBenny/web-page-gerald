@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+
+<head>
+
+
+<style>
+
+
+
+#base_page{
+
+background-color: white;
+width: 1020px;
+height: 1020px;
+margin-top: -10px;
+margin-left: 150px;
+margin-bottom: 0px;
+float: left;
+border-radius: 0px;	
+}
+
+#body_page{
+
+	background-color: white;
+	width: 800px;
+	height: 800px;
+	margin-left: 105px;
+	margin-top: 75px; 
+	float: left;
+}
+a:link {
+	color:black;
+}
+
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}   
+/* selected link */
+a:active {
+     color: gray;
+}
+
+#interests1{
+	background-color: #FF9966;
+	width: 260px;
+	height: 260px;
+	
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+}
+.interests2 {
+
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	float: left;
+
+
+}
+.interests {
+
+	
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 70px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#work1{
+	background-color: #CC99FF;
+	width: 260px;
+	height: 260px;
+	padding-top: 0px;
+	margin-bottom: 70px;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+}
+.work2 {
+
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 60px;
+	margin-left: 0px;
+	
+	float: left;
+
+
+}
+.work {
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: -250px;
+	margin-left: 90px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#education1{
+	background-color: #CCFF66;
+	width: 260px;
+	height: 260px;
+	
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+
+}
+.education2 {
+
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	float: left;
+
+
+}
+.education{
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 60px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#research1{
+	background-color: #CCCCFF;
+	width: 260px;
+	height: 260px;
+	
+	margin-top: 270px;
+	margin-left: -790px;
+	font-family: Gabriola;
+	float: left;
+
+}
+
+.research2{
+
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	float: left;
+
+
+}
+
+.research{
+
+	width: 220px;
+	height: 220px;
+	color: black;
+
+	margin-top: 5px;
+	margin-left: 70px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#aboutme1{
+	background-color: #FFFF66;
+	width: 260px;
+	height: 260px;
+		
+	margin-top: 270px;
+	margin-left: -525px;
+	font-family: Gabriola;
+	float: left;
+
+}
+
+.aboutme2{
+
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 60px;
+	margin-left: 0px;
+	
+	float: left;
+
+
+}
+.aboutme{
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: -250px;
+	margin-left: 70px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#teaching1{
+	background-color: #FFCCCC;
+	width: 260px;
+	height: 260px;
+	margin-top: -65px;
+	margin-left: 535px;
+	font-family: Gabriola;
+	float: left;
+
+}
+.teaching2{
+	width: 260px;
+	height: 200px;	
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+}
+
+.teaching{
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 75px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#sports1{
+	background-color: #FFCC66;
+	width: 260px;
+	height: 260px;
+	
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+
+}
+.sports2{
+		width: 260px;
+	height: 200px;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	float: left;
+}
+.sports{
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 90px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#quotes1{
+	background-color: #FF9966;
+	width: 260px;
+	height: 260px;
+
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+
+}
+.quotes2{
+		width: 260px;
+	height: 200px;
+	
+	margin-top: 60px;
+	margin-left: 0px;
+	
+	float: left;
+}
+.quotes {
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: -255px;
+	margin-left: 85px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+
+#personallife1{
+	background-color: #CC99FF;
+	width: 260px;
+	height: 260px;
+	
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Gabriola;
+	float: left;
+
+}
+.personallife2{
+	width: 260px;
+	height: 200px;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	float: left;
+}
+.personallife{
+
+
+	width: 220px;
+	height: 220px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 45px;
+	font-size: 200%;
+	font-family: Gabriola;
+	float: left;
+}
+#footnote{
+	
+	width: 900px;
+	height: 50px;
+	background-color: lightgray;
+	color:black;
+	
+	margin-top: 40px;
+	margin-left: -50px;
+	font-family: Segoe Script;
+	font-size: 100%;
+	float: left;
+}
+</style>
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<!--script type="text/javascript" src="engine2/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+	<!--script type="text/javascript" src="engine3/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+	<!--script type="text/javascript" src="engine4/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine5/style.css" />
+	<!--script type="text/javascript" src="engine5/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine6/style.css" />
+	<!--script type="text/javascript" src="engine6/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine7/style.css" />
+	<!--script type="text/javascript" src="engine7/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine8/style.css" />
+	<!--script type="text/javascript" src="engine8/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine9/style.css" />
+	<!--script type="text/javascript" src="engine9/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+
+
+
+
+<div id="base_page">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="body_page">
+
+		
+		<div id="interests1">
+		
+
+		<div class="interests2">
+
+
+				<!-- Start WOWSlider.com BODY section -->
+		<div id="wowslider-container1">
+		<div class="ws_images"><ul>
+				<li><img src="data1/images/2a.jpg" alt="2a" title="2a" id="wows1_0"/></li>
+				<li><img src="data1/images/3a.jpg" alt="3a" title="3a" id="wows1_1"/></li>
+				<li><a href="http://wowslider.net"><img src="data1/images/4a.jpg" alt="http://wowslider.net/" title="4a" id="wows1_2"/></a></li>
+				<li><img src="data1/images/5a.jpg" alt="5a" title="5a" id="wows1_3"/></li>
+			</ul></div>
+		<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+		<div class="ws_shadow"></div>
+		</div>	
+		<script type="text/javascript" src="engine1/wowslider.js"></script>
+		<script type="text/javascript" src="engine1/script.js"></script>
+		<!-- End WOWSlider.com BODY section -->
+
+
+
+		</div>
+
+		<div class="interests">
+
+		<a href="interests.html">
+		INTERESTS</a>
+
+		</div>
+
+		</div>
+	
+
+
+
+
+
+		<div id="work1">
+		
+		
+		<div class="work2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+		<li><img src="data2/images/w1.jpg" alt="w1" title="w1" id="wows2_0"/></li>
+		<li><img src="data2/images/w2.png" alt="w2" title="w2" id="wows2_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/w4.jpg" alt="image slider" title="w4" id="wows2_2"/></a></li>
+		<li><img src="data2/images/w6.png" alt="w6" title="w6" id="wows2_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine2/wowslider.js"></script>
+	<script type="text/javascript" src="engine2/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+
+
+
+
+
+
+		</div>
+
+
+		<div class="work">	
+		
+		<a href="work.html">
+		WORK</a>
+		
+
+		</div>
+
+
+		</div>	
+
+
+
+
+		<div id="education1">
+
+		<div class="education2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container3">
+	<div class="ws_images"><ul>
+		<li><img src="data3/images/e1.jpg" alt="e1" title="e1" id="wows3_0"/></li>
+		<li><img src="data3/images/e3.jpg" alt="e3" title="e3" id="wows3_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data3/images/e5.jpg" alt="image slider" title="e5" id="wows3_2"/></a></li>
+		<li><img src="data3/images/e7.jpg" alt="e7" title="e7" id="wows3_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine3/wowslider.js"></script>
+	<script type="text/javascript" src="engine3/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+
+
+		</div>
+
+
+		<div class="education">
+		<a href="education.html">
+		EDUCATION</a>
+		</div>
+		</div>
+
+
+	
+	
+		<div id="research1">
+		
+		<div class="research2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container4">
+	<div class="ws_images"><ul>
+		<li><img src="data4/images/r1.jpg" alt="r1" title="r1" id="wows4_0"/></li>
+		<li><img src="data4/images/r2.jpg" alt="r2" title="r2" id="wows4_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data4/images/r3.jpg" alt="jquery slider" title="r3" id="wows4_2"/></a></li>
+		<li><img src="data4/images/r6.jpg" alt="r6" title="r6" id="wows4_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine4/wowslider.js"></script>
+	<script type="text/javascript" src="engine4/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+	
+
+
+
+
+		</div>
+		
+		<div class="research">
+		<a href="research.html">RESEARCH</a>
+		</div>
+
+
+		</div>
+
+
+
+		<div id="aboutme1">
+
+		<div class="aboutme2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container5">
+	<div class="ws_images"><ul>
+		<li><img src="data5/images/gerald2.jpg" alt="Gerald2" title="Gerald2" id="wows5_0"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine5/wowslider.js"></script>
+	<script type="text/javascript" src="engine5/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+
+		</div>
+		<div class="aboutme">
+		<a href="aboutme.html">
+		ABOUT ME
+		</a>
+		</div>
+	
+		</div>
+
+
+
+		<div id="teaching1">
+
+		<div class="teaching2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container6">
+	<div class="ws_images"><ul>
+		<li><img src="data6/images/t2.jpg" alt="t2" title="t2" id="wows6_0"/></li>
+		<li><img src="data6/images/t3.jpg" alt="t3" title="t3" id="wows6_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data6/images/t4.jpg" alt="http://wowslider.net/" title="t4" id="wows6_2"/></a></li>
+		<li><img src="data6/images/t5.png" alt="t5" title="t5" id="wows6_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine6/wowslider.js"></script>
+	<script type="text/javascript" src="engine6/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+		</div>
+
+
+		<div class="teaching">
+		<a href="teaching.html">
+		TEACHING
+		</a>
+		</div>
+
+		</div>
+
+
+
+		<div id="sports1">
+
+		<div class="sports2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container7">
+	<div class="ws_images"><ul>
+		<li><img src="data7/images/s1.jpg" alt="s1" title="s1" id="wows7_0"/></li>
+		<li><img src="data7/images/s2.jpg" alt="s2" title="s2" id="wows7_1"/></li>
+		<li><a href="http://wowslider.com"><img src="data7/images/s3.jpg" alt="http://wowslider.com/" title="s3" id="wows7_2"/></a></li>
+		<li><img src="data7/images/s5.jpg" alt="s5" title="s5" id="wows7_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine7/wowslider.js"></script>
+	<script type="text/javascript" src="engine7/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+		</div>
+
+		<div class="sports">
+		<a href="sports.html">
+		SPORTS
+		</a>
+		</div>
+
+		</div>
+
+
+		<div id="quotes1">
+
+		<div class="quotes2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container8">
+	<div class="ws_images"><ul>
+		<li><img src="data8/images/q1.jpg" alt="q1" title="q1" id="wows8_0"/></li>
+		<li><img src="data8/images/q2.jpg" alt="q2" title="q2" id="wows8_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data8/images/q3.jpg" alt="jquery carousel" title="q3" id="wows8_2"/></a></li>
+		<li><img src="data8/images/q4.jpg" alt="q4" title="q4" id="wows8_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine8/wowslider.js"></script>
+	<script type="text/javascript" src="engine8/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+		
+		</div>
+
+		<div class="quotes">
+		<a href="quotes.html">
+		QUOTES
+		</a>
+		</div>
+
+		</div>
+
+		
+		<div id="personallife1">
+		
+		<div id="personallife2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container9">
+	<div class="ws_images"><ul>
+		<li><a href="http://wowslider.net"><img src="data9/images/e4.jpg" alt="jquery slideshow" title="e4" id="wows9_0"/></a></li>
+		<li><img src="data9/images/gerald1.jpg" alt="gerald1" title="gerald1" id="wows9_1"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.6</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine9/wowslider.js"></script>
+	<script type="text/javascript" src="engine9/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+		</div>
+
+		<div class="personallife">
+		<a href="personallife.html">
+		PERSONAL LIFE
+		</a>
+		</div>
+		
+		</div>
+
+
+	<div id="footnote">
+
+	Copyright &#169 2015 A Gerald S R
+	All Rights Reserved. Web page created by Dominic
+
+
+	</div>
+
+
+
+
+</div>
+
+</html>
